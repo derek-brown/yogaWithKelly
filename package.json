@@ -1,0 +1,34 @@
+{
+  "name": "yogawithkelly",
+  "version": "1.0.0",
+  "description": "This is a full stack site designed for the purpose of schedule management for a professional yoga instructor and her business. The app includes a login and sign up feature for clients to receive email updates and confirmations of scheduled appointments done through the site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build:prod": "webpack -p && copy src/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-brown/yogaWithKelly.git"
+  },
+  "author": "Derek E. Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-brown/yogaWithKelly/issues"
+  },
+  "homepage": "https://github.com/derek-brown/yogaWithKelly#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
+  }
+}
