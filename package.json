@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/derek-brown/yogaWithKelly#readme",
   "dependencies": {
+    "mongoose": "^4.13.9",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
