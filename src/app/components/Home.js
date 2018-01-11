@@ -20,7 +20,7 @@ class Home extends React.Component {
   onSubmit = (event) => {
   	event.preventDefault();
 
-  	const { firstName, lastName, email } = this.state;
+  	const { firstName, lastName, email, description } = this.state;
 
   	// axios.post('/api/yoga', {firstName, lastName, email, description})
    //    .then((result) => {
@@ -29,7 +29,7 @@ class Home extends React.Component {
   }
 
 	render(){
-		const { firstName, lastName, email } = this.state;
+		const { firstName, lastName, email, description } = this.state;
 		return(
 			<div className="container">
 				<div className="panel panel-default">
