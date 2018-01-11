@@ -22,7 +22,7 @@ class Home extends React.Component {
 
   	const { firstName, lastName, email } = this.state;
 
-  	// axios.post('/api/book', {firstName, lastName, year})
+  	// axios.post('/api/yoga', {firstName, lastName, email, description})
    //    .then((result) => {
    //      this.props.history.push("/")
    //    });
